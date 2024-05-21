@@ -1,0 +1,3 @@
+/Users/mavaylon/Research/cpp_playground/folder_exec/projectB/build/CMakeFiles/PipSim2.dir
+/Users/mavaylon/Research/cpp_playground/folder_exec/projectB/build/CMakeFiles/edit_cache.dir
+/Users/mavaylon/Research/cpp_playground/folder_exec/projectB/build/CMakeFiles/rebuild_cache.dir

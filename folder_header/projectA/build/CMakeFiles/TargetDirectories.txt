@@ -1,0 +1,3 @@
+/Users/mavaylon/Research/cpp_playground/folder_header/projectA/build/CMakeFiles/myexecutable.dir
+/Users/mavaylon/Research/cpp_playground/folder_header/projectA/build/CMakeFiles/edit_cache.dir
+/Users/mavaylon/Research/cpp_playground/folder_header/projectA/build/CMakeFiles/rebuild_cache.dir

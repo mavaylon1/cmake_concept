@@ -1,0 +1,4 @@
+@PACKAGE_INIT@
+include(CMakeFindDependencyMacro)
+
+include("/usr/local/lib/cmake/ProjectA/ProjectATargets.cmake")

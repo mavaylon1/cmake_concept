@@ -1,0 +1,3 @@
+/usr/local/bin/PipSim
+/usr/local/lib/cmake/ProjectA/ProjectATargets.cmake
+/usr/local/lib/cmake/ProjectA/ProjectATargets-noconfig.cmake

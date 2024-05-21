@@ -1,0 +1,8 @@
+/Users/mavaylon/Research/cpp_playground/folder_exec/projectA/build/CMakeFiles/ProjectA.dir
+/Users/mavaylon/Research/cpp_playground/folder_exec/projectA/build/CMakeFiles/PipSim.dir
+/Users/mavaylon/Research/cpp_playground/folder_exec/projectA/build/CMakeFiles/edit_cache.dir
+/Users/mavaylon/Research/cpp_playground/folder_exec/projectA/build/CMakeFiles/rebuild_cache.dir
+/Users/mavaylon/Research/cpp_playground/folder_exec/projectA/build/CMakeFiles/list_install_components.dir
+/Users/mavaylon/Research/cpp_playground/folder_exec/projectA/build/CMakeFiles/install.dir
+/Users/mavaylon/Research/cpp_playground/folder_exec/projectA/build/CMakeFiles/install/local.dir
+/Users/mavaylon/Research/cpp_playground/folder_exec/projectA/build/CMakeFiles/install/strip.dir
