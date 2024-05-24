@@ -1,0 +1,7 @@
+/usr/local/lib/libMyLibrary.1.0.0.dylib
+/usr/local/lib/libMyLibrary.1.dylib
+/usr/local/lib/libMyLibrary.dylib
+/usr/local/include/MyLibrary.hpp
+/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/install/MyLibraryTargets.cmake
+/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/install/MyLibraryTargets-noconfig.cmake
+/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/install/MyLibraryConfig.cmake

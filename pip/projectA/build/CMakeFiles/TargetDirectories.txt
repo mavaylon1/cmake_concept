@@ -1,0 +1,3 @@
+/Users/mavaylon/Research/cpp_playground/cmake_concept/pip/projectA/build/CMakeFiles/myproject.dir
+/Users/mavaylon/Research/cpp_playground/cmake_concept/pip/projectA/build/CMakeFiles/edit_cache.dir
+/Users/mavaylon/Research/cpp_playground/cmake_concept/pip/projectA/build/CMakeFiles/rebuild_cache.dir

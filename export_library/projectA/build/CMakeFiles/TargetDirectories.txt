@@ -1,0 +1,7 @@
+/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/projectA/build/CMakeFiles/MyLibrary.dir
+/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/projectA/build/CMakeFiles/edit_cache.dir
+/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/projectA/build/CMakeFiles/rebuild_cache.dir
+/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/projectA/build/CMakeFiles/list_install_components.dir
+/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/projectA/build/CMakeFiles/install.dir
+/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/projectA/build/CMakeFiles/install/local.dir
+/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/projectA/build/CMakeFiles/install/strip.dir
