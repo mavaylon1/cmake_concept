@@ -72,7 +72,6 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/AnotherProject.dir/clean
-clean: CMakeFiles/MyCustomTarget.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -100,32 +99,6 @@ AnotherProject: CMakeFiles/AnotherProject.dir/rule
 CMakeFiles/AnotherProject.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnotherProject.dir/build.make CMakeFiles/AnotherProject.dir/clean
 .PHONY : CMakeFiles/AnotherProject.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/MyCustomTarget.dir
-
-# All Build rule for target.
-CMakeFiles/MyCustomTarget.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCustomTarget.dir/build.make CMakeFiles/MyCustomTarget.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCustomTarget.dir/build.make CMakeFiles/MyCustomTarget.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/projectB/build/CMakeFiles --progress-num= "Built target MyCustomTarget"
-.PHONY : CMakeFiles/MyCustomTarget.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/MyCustomTarget.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/projectB/build/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MyCustomTarget.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/projectB/build/CMakeFiles 0
-.PHONY : CMakeFiles/MyCustomTarget.dir/rule
-
-# Convenience name for target.
-MyCustomTarget: CMakeFiles/MyCustomTarget.dir/rule
-.PHONY : MyCustomTarget
-
-# clean rule for target.
-CMakeFiles/MyCustomTarget.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCustomTarget.dir/build.make CMakeFiles/MyCustomTarget.dir/clean
-.PHONY : CMakeFiles/MyCustomTarget.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

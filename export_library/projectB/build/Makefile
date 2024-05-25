@@ -129,19 +129,6 @@ AnotherProject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AnotherProject.dir/build.make CMakeFiles/AnotherProject.dir/build
 .PHONY : AnotherProject/fast
 
-#=============================================================================
-# Target rules for targets named MyCustomTarget
-
-# Build rule for target.
-MyCustomTarget: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MyCustomTarget
-.PHONY : MyCustomTarget
-
-# fast build rule for target.
-MyCustomTarget/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyCustomTarget.dir/build.make CMakeFiles/MyCustomTarget.dir/build
-.PHONY : MyCustomTarget/fast
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -174,7 +161,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... MyCustomTarget"
 	@echo "... AnotherProject"
 	@echo "... main.o"
 	@echo "... main.i"

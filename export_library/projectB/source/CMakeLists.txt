@@ -15,9 +15,6 @@ add_executable(AnotherProject main.cpp)
 # Link the executable with the MyLibrary library
 target_link_libraries(AnotherProject PUBLIC MyLibrary::MyLibrary)
 
-# Define a custom target that depends on the library
-add_custom_target(MyCustomTarget DEPENDS MyLibrary::MyLibrary)
-
 add_custom_command(TARGET AnotherProject
                    POST_BUILD
                    COMMAND echo "pip install")
