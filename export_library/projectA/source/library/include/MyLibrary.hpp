@@ -3,7 +3,8 @@
 
 class MyLibrary {
 public:
-    void sayHello();
+    void sayHelloo();
+    void sayBye();
 };
 
 #endif // MY_LIBRARY_HPP

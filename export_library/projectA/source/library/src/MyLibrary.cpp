@@ -1,6 +1,6 @@
 #include "MyLibrary.hpp"
 #include <iostream>
 
-void MyLibrary::sayHello() {
+void MyLibrary::sayHelloo() {
     std::cout << "Hello from MyLibrary!" << std::endl;
 }

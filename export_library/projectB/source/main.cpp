@@ -2,6 +2,6 @@
 
 int main() {
     MyLibrary lib;
-    lib.sayHello();
+    lib.sayHelloo();
     return 0;
 }

@@ -130,4 +130,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/AnotherProject.dir/DependInfo.cmake"
+  "CMakeFiles/MyCustomTarget.dir/DependInfo.cmake"
   )
