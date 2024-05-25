@@ -14,12 +14,6 @@ target_include_directories(MyLibrary
            $<INSTALL_INTERFACE:include>
 )
 
-# Set the version information
-set_target_properties(MyLibrary PROPERTIES
-    VERSION 1.0.0
-    SOVERSION 1
-)
-
 # Export the library
 install(TARGETS MyLibrary
     EXPORT MyLibraryTargets
