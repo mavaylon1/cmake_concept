@@ -17,10 +17,36 @@ target_include_directories(peaks
            $<INSTALL_INTERFACE:include>
 )
 
+# Export the library
 install(TARGETS peaks
-    ARCHIVE DESTINATION lib
-    LIBRARY DESTINATION lib
-    RUNTIME DESTINATION bin
+        EXPORT peaksTargets
+        LIBRARY DESTINATION lib
+        ARCHIVE DESTINATION lib
+        RUNTIME DESTINATION bin
+)
+
+# Export the include directory
+install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/psana/include/ DESTINATION include)
+
+# Generate and install the export file for the library
+install(EXPORT peaksTargets
+    FILE peaksTargets.cmake
+    NAMESPACE peaks::
+    DESTINATION lib/cmake/peaks
+)
+
+# Generate the peaksConfig.cmake file
+include(CMakePackageConfigHelpers)
+configure_package_config_file(
+    ${CMAKE_SOURCE_DIR}/cmake/peaksConfig.cmake.in
+    ${CMAKE_BINARY_DIR}/peaksConfig.cmake
+    INSTALL_DESTINATION lib/cmake/peaks
+)
+
+# Install the MyLibraryConfig.cmake file
+install(FILES
+    ${CMAKE_CURRENT_BINARY_DIR}/peaksConfig.cmake
+    DESTINATION lib/cmake/peaks
 )
 
 # Link the executable with the MyLibrary library

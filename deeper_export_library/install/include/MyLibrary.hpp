@@ -4,7 +4,7 @@
 class MyLibrary {
 public:
     void sayHelloo();
-    void sayByee();
+    void sayBye();
 };
 
 #endif // MY_LIBRARY_HPP
