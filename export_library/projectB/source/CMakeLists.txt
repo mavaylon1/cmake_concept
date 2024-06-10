@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.10)
 project(AnotherProject)
 
 # Add the installation prefix of MyLibrary to CMAKE_PREFIX_PATH
-list(APPEND CMAKE_PREFIX_PATH "/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/install")
+list(APPEND CMAKE_PREFIX_PATH "../../install")
 
 # Find the MyLibrary package
 find_package(MyLibrary REQUIRED)

@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -55,15 +55,15 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/install/MyLibraryTargets.cmake")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/MyLibrary/MyLibraryTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
-         "$ENV{DESTDIR}/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/install/MyLibraryTargets.cmake"
-         "/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/projectA/build/CMakeFiles/Export/f5d31a7d99f46adb735895830e3aa8b3/MyLibraryTargets.cmake")
+         "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/MyLibrary/MyLibraryTargets.cmake"
+         "/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/projectA/build/CMakeFiles/Export/c6b58c87a824cebcf30292a239be874d/MyLibraryTargets.cmake")
     if(_cmake_export_file_changed)
-      file(GLOB _cmake_old_config_files "$ENV{DESTDIR}/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/install/MyLibraryTargets-*.cmake")
+      file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/MyLibrary/MyLibraryTargets-*.cmake")
       if(_cmake_old_config_files)
         string(REPLACE ";" ", " _cmake_old_config_files_text "${_cmake_old_config_files}")
-        message(STATUS "Old export file \"$ENV{DESTDIR}/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/install/MyLibraryTargets.cmake\" will be replaced.  Removing files [${_cmake_old_config_files_text}].")
+        message(STATUS "Old export file \"$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/MyLibrary/MyLibraryTargets.cmake\" will be replaced.  Removing files [${_cmake_old_config_files_text}].")
         unset(_cmake_old_config_files_text)
         file(REMOVE ${_cmake_old_config_files})
       endif()
@@ -71,38 +71,14 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/install/MyLibraryTargets.cmake")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  file(INSTALL DESTINATION "/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/install" TYPE FILE FILES "/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/projectA/build/CMakeFiles/Export/f5d31a7d99f46adb735895830e3aa8b3/MyLibraryTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/MyLibrary" TYPE FILE FILES "/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/projectA/build/CMakeFiles/Export/c6b58c87a824cebcf30292a239be874d/MyLibraryTargets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-     "/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/install/MyLibraryTargets-noconfig.cmake")
-    if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-      message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-    endif()
-    if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-      message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-    endif()
-    file(INSTALL DESTINATION "/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/install" TYPE FILE FILES "/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/projectA/build/CMakeFiles/Export/f5d31a7d99f46adb735895830e3aa8b3/MyLibraryTargets-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/MyLibrary" TYPE FILE FILES "/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/projectA/build/CMakeFiles/Export/c6b58c87a824cebcf30292a239be874d/MyLibraryTargets-noconfig.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/install/MyLibraryConfig.cmake")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  file(INSTALL DESTINATION "/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/install" TYPE FILE FILES "/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/projectA/build/MyLibraryConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/MyLibrary" TYPE FILE FILES "/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/projectA/build/MyLibraryConfig.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

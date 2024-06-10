@@ -1,0 +1,13 @@
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/projectB/build/CMakeFiles/edit_cache.dir
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/projectB/build/CMakeFiles/rebuild_cache.dir
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/projectB/build/CMakeFiles/list_install_components.dir
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/projectB/build/CMakeFiles/install.dir
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/projectB/build/CMakeFiles/install/local.dir
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/projectB/build/CMakeFiles/install/strip.dir
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/projectB/build/psana/CMakeFiles/peaks.dir
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/projectB/build/psana/CMakeFiles/edit_cache.dir
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/projectB/build/psana/CMakeFiles/rebuild_cache.dir
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/projectB/build/psana/CMakeFiles/list_install_components.dir
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/projectB/build/psana/CMakeFiles/install.dir
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/projectB/build/psana/CMakeFiles/install/local.dir
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/projectB/build/psana/CMakeFiles/install/strip.dir

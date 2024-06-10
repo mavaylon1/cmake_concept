@@ -1,0 +1,6 @@
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/install/lib/libpeaks.dylib
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/install/include/code.hh
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/install/lib/cmake/peaks/peaksTargets.cmake
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/install/lib/cmake/peaks/peaksTargets-noconfig.cmake
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/install/lib/cmake/peaks/peaksConfig.cmake
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/install/lib/libpeaks.dylib

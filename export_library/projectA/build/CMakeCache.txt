@@ -91,7 +91,7 @@ CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=/Users/mavaylon/Research/cpp_playground/
 CMAKE_INSTALL_NAME_TOOL:FILEPATH=/Users/mavaylon/anaconda3/bin/install_name_tool
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=/usr/local
+CMAKE_INSTALL_PREFIX:PATH=/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/install
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/ld

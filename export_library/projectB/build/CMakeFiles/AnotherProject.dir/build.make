@@ -92,7 +92,7 @@ AnotherProject_EXTERNAL_OBJECTS =
 
 AnotherProject: CMakeFiles/AnotherProject.dir/main.cpp.o
 AnotherProject: CMakeFiles/AnotherProject.dir/build.make
-AnotherProject: /usr/local/lib/libMyLibrary.dylib
+AnotherProject: /Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/install/lib/libMyLibrary.dylib
 AnotherProject: CMakeFiles/AnotherProject.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mavaylon/Research/cpp_playground/cmake_concept/export_library/projectB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AnotherProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AnotherProject.dir/link.txt --verbose=$(VERBOSE)

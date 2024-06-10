@@ -1,0 +1,5 @@
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/install/lib/libMyLibrary.dylib
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/install/include/MyLibrary.hpp
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/install/lib/cmake/MyLibrary/MyLibraryTargets.cmake
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/install/lib/cmake/MyLibrary/MyLibraryTargets-noconfig.cmake
+/Users/mavaylon/Research/cpp_playground/cmake_concept/deeper_export_library/install/lib/cmake/MyLibrary/MyLibraryConfig.cmake
